@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mibデスクトップ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ZIPをダウンロード</h1>
+    <a href="mib-zippackageversion.zip" download class="download-btn" onclick="showMessage()">ダウンロード</a>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent = "ダウンロードありがとうございます！";
+    }
+  </script>
+</body>
+</html>
